@@ -224,4 +224,5 @@ if (window.Telegram?.WebApp) {
   document.body.classList.add("tg-mode");
   window.Telegram.WebApp.ready();
   window.Telegram.WebApp.expand();
+  window.Telegram.WebApp.disableVerticalSwipes();
 }

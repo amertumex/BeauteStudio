@@ -1047,3 +1047,34 @@ body {
     display: none !important;
   }
 }
+
+/* ══════════════════════════════════════
+   TELEGRAM MINI APP — специфичные стили
+══════════════════════════════════════ */
+@media (max-width: 767px) {
+  .tg-mode .mobile-topbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 54px; /* отступ под кнопку Close Telegram */
+    padding-bottom: 14px;
+    gap: 12px;
+  }
+
+  .tg-mode .mobile-brand {
+    font-size: 24px;
+  }
+
+  .tg-mode .mobile-brand-sub {
+    font-size: 12px;
+  }
+
+  .tg-mode .add-btn {
+    width: 100%;
+    margin-top: 10px;
+    max-width: 280px;
+    text-align: center;
+    padding: 13px 0;
+    font-size: 17px;
+  }
+}
